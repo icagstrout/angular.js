@@ -62,8 +62,8 @@
     "jasmine-node": "^2.0.0",
     "jasmine-reporters": "^2.2.0",
     "jquery": "3.2.1",
-    "jquery-2.1": "npm:jquery@2.1.4",
-    "jquery-2.2": "npm:jquery@2.2.4",
+    "jquery-2.1": "npm: jquery@2.1.4",
+    "jquery-2.2": "npm: jquery@2.2.4",
     "karma": "^2.0.0",
     "karma-browserstack-launcher": "^1.2.0",
     "karma-chrome-launcher": "^2.1.1",
@@ -100,7 +100,9 @@
     "sorted-object": "^1.0.0",
     "stringmap": "^0.2.2"
   },
-  "dependencies": {},
+  "dependencies": {
+    "jsdom": "^11.6.2"
+  },
   "commitplease": {
     "style": "angular",
     "nohook": true

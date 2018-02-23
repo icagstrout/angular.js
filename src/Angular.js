@@ -1,5 +1,6 @@
 'use strict';
-
+var JSDom = require('jsdom');
+var window = new JSDom();
 /* We need to tell ESLint what variables are being exported */
 /* exported
   angular,
